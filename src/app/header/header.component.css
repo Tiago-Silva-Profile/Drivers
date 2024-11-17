@@ -1,3 +1,6 @@
+*{
+  background-color: #1B303A;
+}
 .navbar-brand{
   color: #FBFBFB;
 }
@@ -22,4 +25,9 @@
 .bi{
   width: 30px;
   height: 24px;
+}
+
+.uf-city{
+  display: flex;
+  flex-direction: row;
 }

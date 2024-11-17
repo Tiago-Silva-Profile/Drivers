@@ -18,6 +18,8 @@ import { FormsModule } from '@angular/forms';
 export class HeaderComponent implements OnInit, OnDestroy{
 
     vehicles = ['Carro', 'Moto', 'Carreta', 'Toco'];
+    ufs = ['Pernambuco - PE', 'São Paulo - SP', 'Paraíba - PB', 'Rio Grande do Norte - RN'];
+    citys = ['Recife', 'São Paulo', 'João Pessoal', 'Natal'];
     textoBusca = '';
     veiculosFiltrados: string[] = [];
 

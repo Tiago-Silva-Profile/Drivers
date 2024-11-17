@@ -35,8 +35,29 @@
 
 <!-- Socialmidia -->
 <nav class="navbar navbar-social">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <a href=""><i class="bi bi-whatsapp"></i></a>
   <a href=""><i class="bi bi-facebook"></i></a>
   <a href=""><i class="bi bi-linkedin"></i></a>
   <a href=""><i class="bi bi-instagram"></i></a>
+
+  <ul class="navbar-nav mr-auto uf-city">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      UF
+    </a>
+    <ul class="dropdown-menu">
+      <li  *ngFor="let uf of ufs"><a class="dropdown-item" href="#">{{uf}}</a></li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      CIDADE
+    </a>
+    <ul class="dropdown-menu">
+      <li  *ngFor="let cidades of citys"><a class="dropdown-item" href="#">{{cidades}}</a></li>
+    </ul>
+  </li>
+  </ul>
+</div>
 </nav>

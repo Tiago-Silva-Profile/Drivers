@@ -1,0 +1,9 @@
+.card-home-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-home{
+  background-color: #314A57;
+}
