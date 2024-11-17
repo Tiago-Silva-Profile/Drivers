@@ -1,0 +1,25 @@
+.navbar-brand{
+  color: #FBFBFB;
+}
+
+#navbarSupportedContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-header{
+  display: flex;
+}
+
+.nav-link{
+  color: #FBFBFB;
+}
+
+.navbar-social{
+  background-color: #314A57;
+}
+
+.bi{
+  width: 30px;
+  height: 24px;
+}
