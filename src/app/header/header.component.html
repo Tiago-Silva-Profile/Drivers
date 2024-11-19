@@ -11,53 +11,37 @@
         <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
+        <a class="nav-link" href="/about">Sobre</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Veículo
-        </a>
-        <ul class="dropdown-menu">
-          <li  *ngFor="let veiculo of vehicles"><a class="dropdown-item" href="#">{{veiculo}}</a></li>
-          <li><a class="dropdown-item" href="#">TODOS</a></li>
-        </ul>
+      <li class="nav-item">
+        <a class="nav-link" href="/drivers">Veiculos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/partner">Parceiros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/opportunities">Vagas</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/contact">Contato</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0 search-header">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 
 <!-- Socialmidia -->
 <nav class="navbar navbar-social">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <a href=""><i class="bi bi-whatsapp"></i></a>
-  <a href=""><i class="bi bi-facebook"></i></a>
-  <a href=""><i class="bi bi-linkedin"></i></a>
-  <a href=""><i class="bi bi-instagram"></i></a>
+    <a href=""><i class="bi bi-whatsapp"></i></a>
+    <a href=""><i class="bi bi-facebook"></i></a>
+    <a href=""><i class="bi bi-linkedin"></i></a>
+    <a href=""><i class="bi bi-instagram"></i></a>
 
-  <ul class="navbar-nav mr-auto uf-city">
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      UF
-    </a>
-    <ul class="dropdown-menu">
-      <li  *ngFor="let uf of ufs"><a class="dropdown-item" href="#">{{uf}}</a></li>
+    <ul class="navbar-nav mr-auto uf-city">
     </ul>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      CIDADE
-    </a>
-    <ul class="dropdown-menu">
-      <li  *ngFor="let cidades of citys"><a class="dropdown-item" href="#">{{cidades}}</a></li>
-    </ul>
-  </li>
-  </ul>
-</div>
+    <form class="form-inline my-2 my-lg-0 search-header">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
 </nav>
