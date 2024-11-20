@@ -1,3 +1,8 @@
+.card-Container-drivers{
+  display: flex;
+  justify-content: space-around;
+}
+
 .card-home-container{
   display: flex;
   flex-wrap: wrap;
@@ -6,4 +11,13 @@
 
 .card-home{
   background-color: #314A57;
+  margin: 1rem;
+}
+
+select{
+  display: flex;
+}
+
+button.star{
+  border: none;
 }

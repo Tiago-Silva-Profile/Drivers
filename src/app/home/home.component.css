@@ -7,3 +7,8 @@
 .card-home{
   background-color: #314A57;
 }
+
+.carousel-inner{
+  display: flex;
+  justify-content: space-around;
+}

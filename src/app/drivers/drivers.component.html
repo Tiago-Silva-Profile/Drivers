@@ -1,61 +1,75 @@
-<form>
-  <div class="form-row align-items-center">
-    <div class="col-auto my-1">
-      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Selecione o Estado</label>
-      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-        <option selected>Selecione</option>
-        <option value="1" *ngFor="let uf of ufs">{{uf}}</option>
-      </select>
+<div class="card-Container-drivers">
+  <form>
+    <div class="form-row align-items-center">
+      <div class="col-auto my-1">
+        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Selecione o Estado</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Selecione</option>
+          <option value="1" *ngFor="let uf of ufs">{{uf}}</option>
+        </select>
+      </div>
+      <div class="col-auto my-1">
+        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Selecione a Cidade</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Selecione</option>
+          <option *ngFor="let cidades of citys">{{cidades}}</option>
+        </select>
+      </div>
+      <div class="col-auto my-1">
+        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Selecione o Tipo de operação</label>
+        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+          <option selected>Selecione</option>
+          <option value="1">Um</option>
+          <option value="2">Dois</option>
+          <option value="3">Três</option>
+        </select>
+      </div>
     </div>
-    <div class="col-auto my-1">
-      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Selecione a Cidade</label>
-      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-        <option selected>Selecione</option>
-        <option *ngFor="let cidades of citys">{{cidades}}</option>
-      </select>
-    </div>
-    <div class="col-auto my-1">
-      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Selecione o Tipo de operação</label>
-      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-        <option selected>Selecione</option>
-        <option value="1">Um</option>
-        <option value="2">Dois</option>
-        <option value="3">Três</option>
-      </select>
-    </div>
-  </div>
-</form>
+  </form>
 
 
-<div class="card-home-container">
-  <div class="card-home" *ngFor="let card of cards">
-    <div class="card" style="width: 18rem;">
-      <img src={{card.imageUrl}} class="card-img-top" alt="Card Image">
-      <div class="card-body">
-        <h5 class="card-title">{{ card.title }}</h5>
-        <p class="card-text">{{ card.description }}</p>
-        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saiba Mais</a>
+  <div class="card-home-container">
+    <div class="card-home" *ngFor="let card of cards">
+      <div class="card" style="width: 18rem;">
+        <img src={{card.imageUrl}} class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">{{ card.title }}</h5>
+          <p class="card-text">{{ card.description }}</p>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saiba Mais</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Deixe o seu comentário:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label>
+              <input type="radio" name="fb" value="1" />
+              <i class="bi bi-star"></i>
+            </label>
+            <button><i class="bi bi-star star"></i></button>
+            <button><i class="bi bi-star star"></i></button>
+            <button><i class="bi bi-star star"></i></button>
+            <button><i class="bi bi-star star"></i></button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
       </div>
     </div>
   </div>

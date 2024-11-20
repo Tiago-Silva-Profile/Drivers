@@ -20,6 +20,9 @@
 
 .navbar-social{
   background-color: #314A57;
+  color: #FBFBFB;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .bi{
@@ -30,4 +33,14 @@
 .uf-city{
   display: flex;
   flex-direction: row;
+}
+
+.social-icon {
+  font-size: 24px; /* Ajustar o tamanho conforme necessário */
+  color: #333; /* Cor padrão dos ícones */
+  margin: 0 10px; /* Espaçamento entre os ícones */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Cor ao passar o mouse */
 }
