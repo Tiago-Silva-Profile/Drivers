@@ -22,7 +22,7 @@
   background-color: #314A57;
   color: #FBFBFB;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .bi{
@@ -36,11 +36,20 @@
 }
 
 .social-icon {
-  font-size: 24px; /* Ajustar o tamanho conforme necessário */
+  font-size: 2rem; /* Ajustar o tamanho conforme necessário */
   color: #333; /* Cor padrão dos ícones */
   margin: 0 10px; /* Espaçamento entre os ícones */
 }
 
 .social-icon:hover {
   color: #007bff; /* Cor ao passar o mouse */
+}
+
+.navbar-social div{
+  background-color: #314A57;
+}
+
+
+.navbar-social div a img{
+  background-color: #314A57;
 }
