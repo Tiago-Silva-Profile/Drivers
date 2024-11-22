@@ -1,1 +1,121 @@
-<p>register-drivers works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Motorista</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Cadastro de Motorista</h1>
+    <form>
+      <!-- Informações do Motorista -->
+      <div class="mb-4">
+        <h4>Informações Pessoais</h4>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="name" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="name" placeholder="Digite o nome completo">
+          </div>
+          <div class="col-md-3">
+            <label for="phone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="phone" placeholder="(99) 99999-9999">
+          </div>
+          <div class="col-md-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite o e-mail">
+          </div>
+        </div>
+      </div>
+
+      <!-- Regiões e Cidades -->
+      <div class="mb-4">
+        <h4>Região e Cidades</h4>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="region" class="form-label">Região</label>
+            <select id="region" class="form-select">
+              <option selected>Escolha a região...</option>
+              <option value="norte">Norte</option>
+              <option value="nordeste">Nordeste</option>
+              <option value="sul">Sul</option>
+              <option value="sudeste">Sudeste</option>
+              <option value="centro-oeste">Centro-Oeste</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="region" class="form-label">UF</label>
+            <select id="region" class="form-select">
+              <option selected>Escolha a região...</option>
+              <option value="norte">PE</option>
+              <option value="nordeste">SP</option>
+              <option value="sul">PB</option>
+              <option value="sudeste">RN</option>
+              <option value="centro-oeste">BA</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="cities" class="form-label">Cidades Atendidas</label>
+            <input type="text" class="form-control" id="cities" placeholder="Informe as cidades atendidas">
+          </div>
+        </div>
+      </div>
+
+      <!-- Informações do Veículo -->
+      <div class="mb-4">
+        <h4>Informações do Veículo</h4>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <label for="vehicle-type" class="form-label">Tipo de Veículo</label>
+            <select id="vehicle-type" class="form-select">
+              <option selected>Escolha o tipo...</option>
+              <option value="carro">Carro</option>
+              <option value="moto">Moto</option>
+              <option value="caminhao">Caminhão</option>
+              <option value="van">Van</option>
+              <option value="carreta">Carreta</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="plate" class="form-label">Placa do Veículo</label>
+            <input type="text" class="form-control" id="plate" placeholder="Digite a placa">
+          </div>
+          <div class="col-md-4">
+            <label for="year" class="form-label">Ano do Veículo</label>
+            <input type="number" class="form-control" id="year" placeholder="Digite o ano">
+          </div>
+        </div>
+      </div>
+
+      <!-- Atividade Logística -->
+      <div class="mb-4">
+        <h4>Atividade Logística</h4>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="activity" class="form-label">Tipo de Atividade</label>
+            <select id="activity" class="form-select">
+              <option selected>Escolha o tipo...</option>
+              <option value="passageiros">Transporte de Passageiros</option>
+              <option value="carga">Transporte de Carga</option>
+              <option value="delivery">Delivery</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="hours" class="form-label">Horário de Atendimento</label>
+            <input type="text" class="form-control" id="hours" placeholder="Ex.: 08:00 - 18:00">
+          </div>
+        </div>
+      </div>
+
+      <!-- Botões -->
+      <div class="d-flex justify-content-end mt-4">
+        <button type="reset" class="btn btn-secondary me-2">Limpar</button>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

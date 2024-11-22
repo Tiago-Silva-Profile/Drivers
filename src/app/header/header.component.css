@@ -1,8 +1,12 @@
 *{
-  background-color: #1B303A;
+  background-color: #05192A;
 }
 .navbar-brand{
   color: #FBFBFB;
+}
+
+.navbar-brand img{
+  border-radius: 10rem;
 }
 
 #navbarSupportedContent{
@@ -41,10 +45,6 @@
   margin: 0 10px; /* Espaçamento entre os ícones */
 }
 
-.social-icon:hover {
-  color: #007bff; /* Cor ao passar o mouse */
-}
-
 .navbar-social div{
   background-color: #314A57;
 }
@@ -52,4 +52,27 @@
 
 .navbar-social div a img{
   background-color: #314A57;
+}
+
+.social-icons a{
+  margin: 1rem;
+}
+
+.social-icons i{
+  font-size: 2rem; /* Tamanho do ícone */
+  background-color: #314A57;
+}
+
+
+.social-icons .bi-whatsapp{
+  color: green;
+}
+.social-icons .bi-facebook{
+  color: #0866FF;
+}
+.social-icons .bi-linkedin{
+  color: #0A66C2;
+}
+.social-icons .bi-instagram{
+  color: #FE2D65;
 }

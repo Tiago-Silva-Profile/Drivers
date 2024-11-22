@@ -1,0 +1,8 @@
+#visao-missao-valores .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#visao-missao-valores .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}

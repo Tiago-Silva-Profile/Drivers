@@ -6,6 +6,7 @@ import { PartnerComponent } from './partner/partner.component';
 import { OpportunitiesComponent } from './opportunities/opportunities.component';
 import { DriversComponent } from './drivers/drivers.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterDriversComponent } from './register-drivers/register-drivers.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,5 +15,6 @@ export const routes: Routes = [
   { path: 'partner', component: PartnerComponent},
   { path: 'opportunities', component: OpportunitiesComponent},
   { path: 'drivers', component: DriversComponent},
-  { path: 'login', component: LoginComponent}
+  { path: 'login', component: LoginComponent},
+  { path: 'register-drivers', component: RegisterDriversComponent}
 ];

@@ -17,7 +17,8 @@ export const routes: Routes = [
   { path: 'partner', component: PartnerComponent},
   { path: 'opportunities', component: OpportunitiesComponent},
   { path: 'drivers', component: DriversComponent},
-  { path: 'login', component: LoginComponent}
+  { path: 'login', component: LoginComponent},
+  { path: 'register-drivers', component: RegisterDriversComponent}
 ];
 
 
