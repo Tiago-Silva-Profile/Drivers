@@ -29,4 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Construa o Projeto Execute o comando para criar a build de produção:
 
-ng build --configuration production --output-path=dist
+ng build --configuration production --output-path=docs
