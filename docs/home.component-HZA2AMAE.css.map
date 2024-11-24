@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/home/home.component.css"],
+  "sourcesContent": [".card-home-container{\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: space-around;\r\n}\r\n\r\n.card-home{\r\n  background-color: #314A57;\r\n}\r\n\r\n.carousel-inner{\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,oBACC,QAAS,KACT,UAAW,KACX,gBAAiB,YACnB,CAEA,CAAC,UACC,iBAAkB,OACpB,CAEA,CAAC,eACC,QAAS,KACT,gBAAiB,YACnB",
+  "names": []
+}

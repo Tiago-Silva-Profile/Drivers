@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/about/about.component.css"],
+  "sourcesContent": ["#visao-missao-valores .card {\r\n  transition: transform 0.3s, box-shadow 0.3s;\r\n}\r\n\r\n#visao-missao-valores .card:hover {\r\n  transform: scale(1.05);\r\n  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,qBAAqB,CAAC,KACrB,WAAY,UAAU,GAAI,CAAE,WAAW,GACzC,CAEA,CAJC,qBAIqB,CAJC,IAII,OACzB,UAAW,MAAM,MACjB,WAAY,EAAI,IAAI,KAAK,SAC3B",
+  "names": []
+}

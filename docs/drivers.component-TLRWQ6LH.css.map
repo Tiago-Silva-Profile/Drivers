@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/drivers/drivers.component.css"],
+  "sourcesContent": [".card-Container-drivers{\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.card-home-container{\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: space-around;\r\n}\r\n\r\n.card-home{\r\n  background-color: #314A57;\r\n  margin: 1rem;\r\n  transition: transform 0.3s ease;\r\n}\r\n\r\n.card-home:hover {\r\n  transform: scale(1.1);\r\n}\r\n\r\n\r\nselect{\r\n  display: flex;\r\n}\r\n\r\nbutton.star{\r\n  border: none;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,uBACC,QAAS,KACT,gBAAiB,YACnB,CAEA,CAAC,oBACC,QAAS,KACT,UAAW,KACX,gBAAiB,YACnB,CAEA,CAAC,UACC,iBAAkB,QAZpB,OAaU,KACR,WAAY,UAAU,IAAK,IAC7B,CAEA,CANC,SAMS,OACR,UAAW,MAAM,IACnB,CAGA,OACE,QAAS,IACX,CAEA,MAAM,CAAC,KACL,OAAQ,IACV",
+  "names": []
+}

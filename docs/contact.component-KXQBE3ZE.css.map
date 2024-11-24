@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/contact/contact.component.css"],
+  "sourcesContent": [".social-icon {\r\n  font-size: 2rem;\r\n  color: white;\r\n}\r\n\r\n.social-card {\r\n  transition: transform 0.3s ease;\r\n}\r\n\r\n.social-card:hover {\r\n  transform: scale(1.1);\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,YACC,UAAW,KACX,MAAO,IACT,CAEA,CAAC,YACC,WAAY,UAAU,IAAK,IAC7B,CAEA,CAJC,WAIW,OACV,UAAW,MAAM,IACnB",
+  "names": []
+}
