@@ -1,0 +1,12 @@
+.social-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.social-card {
+  transition: transform 0.3s ease;
+}
+
+.social-card:hover {
+  transform: scale(1.1);
+}
