@@ -31,6 +31,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ng build --output-path docs --base-href /Drivers/
 
+ng build --output-path=docs --base-href /Drivers/
+
 ng build --prod --base-href="/" --source-map
 
 angular-cli-ghpages --dir=dist/Drivers
